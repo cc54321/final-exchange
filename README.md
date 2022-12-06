@@ -3,18 +3,18 @@
  Designing application for monetary exchange rates. 
  
  
- design foundation using html
+ Design foundation using html
  
- responsive design
+ Responsive design
  
- display world currencies for users to input
+ Display world currencies for users to input
  
- create a submit button for user input
+ Create a submit button for user input
  
- using java script pull data using get
+ Using java script pull data using get
  
- display curencies 
+ Display curencies 
  
- display exchage rates
+ Display exchage rates
  
  

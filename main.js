@@ -3,7 +3,7 @@ let currencies = document.querySelector('#currency-pair');
 let currencyForm = document.querySelector("#currency-form");
 let currencyInput = document.querySelector("#currency-input");
 let exchangeRate = document.querySelector('#exchange-rate');
-
+let rate = document.querySelector('#rate');
 let description = document.querySelector('#desc');
 let pair = document.querySelector('#pair');
 let exchange = document.querySelector('#exchange');
@@ -52,7 +52,7 @@ exchangeRate.addEventListener('submit', (e) => {
 
         //currencies.innerText = input.value
         currencies.innerHTML = data.currency_pair;
-        exchangeRate.innerHTML = data.exchange_rate;
+        rate.innerHTML = data.exchange_rate;
         //description.innerHTML = data.description;
     });
 });
